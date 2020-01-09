@@ -15,7 +15,7 @@ wn.bgcolor("black")
 wn.title("Space Invaders")
 
 
-class Sprite(turtle.Turle):
+class Sprite(turtle.Turtle):
     def __init__(self, spriteshape, color, startx, starty):
         turtle.Turtle.__init__(self, shape=spriteshape)
         self.speed(0)
