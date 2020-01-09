@@ -1,0 +1,10 @@
+#Sum of two numbers
+
+x = input("1st number = ")
+a = int(x)
+y = input("2nd number = ")
+b = int(y)
+
+z = a + b
+
+print(z)
